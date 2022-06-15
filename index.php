@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login - Asade</title>
+</head>
+
+<body>
+    <div class="background">
+        <div class="satu" disable></div>
+        <div class="dua" disable></div>
+        <div class="tiga" disable></div>
+    </div>
+    <div class="before-box">
+        <div class="box">
+            <div class="blury">
+                <img src="assets/svg/tangan.svg" alt="">
+            </div>
+            <div class="form">
+                <form action="">
+                    <h2>Login</h2>
+                    <p class="greeting">Halo teman-teman, mari masuk untuk melanjutkan aktifitas mu!</p>
+                    <input type="text" placeholder="username">
+                    <input type="password" placeholder="password">
+                    <div class="checkbox">
+                        <input type="checkbox"> ingat saya
+                    </div>
+                    <button><a href="main.php" class="button">Lets Start !</a></button>
+                    <p>Belum punya akun? Segera melapor ke Admin.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+body {
+  font-family: poppins;
+  overflow: hidden;
+}
+.satu,
+.dua,
+.tiga {
+  position: absolute;
+  filter: blur(100px);
+  z-index: -999;
+  /* width: 15%; */
+}
+.satu {
+  height: 360px;
+  width: 360px;
+  left: 234px;
+  top: 593px;
+  /* background-image: url(/assets/svg/Ellipse 2.svg); */
+  background-color: #ff8a00;
+  border-radius: 100%;
+}
+.dua {
+  height: 696px;
+  width: 696px;
+  left: 991px;
+  top: 126px;
+  /* background-image: url("/assets/svg/Ellipse 3.svg"); */
+  background-color: #00d1ff;
+  border-radius: 100%;
+}
+.tiga {
+  height: 190px;
+  width: 190px;
+  left: 598px;
+  top: 315px;
+  /* background-image: url("/assets/svg/Ellipse 4.svg"); */
+  background-color: #ff9a9a;
+  border-radius: 100%;
+}
+
+.before-box {
+  display: flex;
+  height: 100vh;
+  /* background-color: orange; */
+  /* margin: auto; */
+}
+.box {
+  display: flex;
+  width: 1278px;
+  height: 742px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.blury {
+  display: flex;
+  width: 580px;
+  height: 742px;
+  background: linear-gradient(
+    155.78deg,
+    rgba(233, 233, 233, 0.4) 0%,
+    rgba(233, 233, 233, 0.2) 100%
+  );
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 25px 0px 0px 25px;
+  /* background-color: green; */
+}
+
+.blury img {
+  align-items: center;
+  margin: auto;
+}
+.form {
+  display: flex;
+  width: 698px;
+  height: 742px;
+  background-color: #fff;
+  border-radius: 0px 25px 25px 0px;
+  align-items: center;
+  justify-content: center;
+  /* margin: 20px; */
+}
+form {
+  margin: 111px;
+  /* padding-left: 20px; */
+}
+.form h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+.form .greeting {
+  font-size: 16px;
+}
+.form input[type="text"],
+[type="password"] {
+  /* padding: 10px; */
+  width: 477px;
+  height: 71px;
+  border: none;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  margin: auto;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.form input[type="text"] {
+  margin-bottom: 21px;
+}
+
+.checkbox {
+  margin-top: 29px;
+}
+
+button {
+  width: 100%;
+  height: 71px;
+  background-color: #000;
+  border-radius: 10px;
+  margin-top: 28px;
+  /* margin: 0 114px; */
+}
+
+button a {
+  padding: 20px 38%;
+  text-decoration: none;
+  color: white;
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  /* background-color: red; */
+}
