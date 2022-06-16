@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  height: 45px;
+  width: 100%;
+  backdrop-filter: saturate(200%) blur(20px);
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 999;
+  position: fixed;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+img {
+  position: absolute;
+  top: -100px;
+  z-index: -999;
+  width: 100%;
+}
