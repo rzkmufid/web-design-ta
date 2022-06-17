@@ -1,19 +1,140 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: poppins;
+  /* border: 1px solid red; */
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* Header */
+header {
+  width: 100%;
+  height: 80px;
+  backdrop-filter: saturate(200%) blur(20px);
+  background-color: rgba(255, 255, 255, 0.6);
+  position: fixed;
+  display: flex;
 }
 .nav {
-  height: 45px;
-  width: 100%;
-  backdrop-filter: saturate(200%) blur(20px);
-  background-color: rgba(255, 255, 255, 0.8);
-  z-index: 999;
-  position: fixed;
-  border-bottom: 1px solid rgb(204, 204, 204);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: 14px;
 }
-img {
-  position: absolute;
-  top: -100px;
-  z-index: -999;
-  width: 100%;
+
+#nav-title {
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #555;
+  transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+  color: #252525;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+.btn-signup {
+  background-color: #0185ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn-signup:hover {
+  color: rgb(238, 238, 238);
+}
+main {
+  padding-top: 136px;
+  display: flex;
+  /* flex-direction: row; */
+}
+.jumbotron {
+  flex-direction: row;
+  display: flex;
+  margin: auto;
+}
+.welcome {
+  height: 473px;
+  width: 718px;
+  display: flex;
+  /* background-color: red; */
+}
+.welcome-content {
+  width: 316px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.welcome-content h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.welcome-content h6 {
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.welcome-content p {
+  margin-top: 36px;
+}
+.welcome-content .btn-signup {
+  margin-right: 16px;
+}
+.welcome-content .login {
+  color: #0185ff;
+  text-decoration: none;
+}
+.welcome-content .login:hover {
+  color: #0185ff;
+  text-decoration: underline;
+}
+.image-welcome {
+  display: flex;
+  height: 473px;
+  width: 436px;
+  /* background-color: rgb(94, 255, 0); */
+}
+.what-is {
+  margin-top: 202px;
+  /* width: 100%; */
+  height: 579px;
+  background: #fbfdff;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #e0e0e0;
 }
