@@ -45,7 +45,10 @@ header {
 
 #nav-title {
   margin-right: auto;
-  font-size: 1.5em;
+  font-size: 1em;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
 }
 
 header li {
@@ -80,8 +83,9 @@ header li {
   color: rgb(238, 238, 238);
 }
 main {
-  padding-top: 136px;
+  padding-top: 200px;
   display: flex;
+  color: #143656;
   /* flex-direction: row; */
 }
 .jumbotron {
@@ -130,6 +134,7 @@ main {
   /* background-color: rgb(94, 255, 0); */
 }
 .what-is {
+  display: flex;
   margin-top: 202px;
   /* width: 100%; */
   height: 579px;
@@ -137,4 +142,59 @@ main {
   border-width: 1px 0px;
   border-style: solid;
   border-color: #e0e0e0;
+  color: #143656;
+}
+.what-is-content {
+  display: flex;
+  margin: auto;
+}
+.kiri {
+  width: 587px;
+  /* background-color: red; */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.kiri img {
+  float: left;
+  margin-left: -70px;
+}
+.kanan {
+  display: flex;
+  width: 566px;
+  /* background-color: red; */
+}
+.kanan-content {
+  display: flex;
+  margin-top: 76px;
+  margin-bottom: auto;
+  justify-content: space-between;
+  /* background-color: blue; */
+}
+.kanan-content h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.kanan-content h3 {
+  margin-top: 9px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.kanan-content p {
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.kanan-content-left {
+  /* background-color: green; */
+  width: 428px;
+}
+.kanan-content-right {
+  margin-top: 50px;
+  width: 86px;
+  height: 260px;
+  /* background-color: red; */
+}
+.kanan-content-left-content {
+  width: 370px;
+  /* background-color: lightblue; */
 }
