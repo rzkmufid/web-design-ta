@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  /* display: flex; */
+}
+
+.parent-box {
+  width: 100%;
+  height: 100vh;
+  /* margin-top: 400px; */
+  display: flex;
+  margin: auto;
+  /* background-color: red; */
+}
+.box {
+  background-color: red;
+  display: flex;
+  width: 1000px;
+  height: 400px;
+  margin: auto;
+}
+.kiri {
+  background-color: green;
+  width: 30%;
+  height: 400px;
+  display: flex;
+}
+
+.kiri p {
+  margin: auto;
+}
+
+.kanan {
+  background-color: lightblue;
+  width: 70%;
+  display: flex;
+}
+.kanan p {
+  margin: auto;
+}
